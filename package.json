@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tiy-atl-js-march-2016/template/issues"
   },
-  "homepage": "https://github.com/tiy-atl-js-march-2016/template#readme"
+  "homepage": "https://github.com/tiy-atl-js-march-2016/template#readme",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
 }

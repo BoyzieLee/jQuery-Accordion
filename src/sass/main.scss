@@ -23,16 +23,17 @@ h1 {
   border-top: 0;
   // border-bottom: 0;
   transition: all 0.5s ease-in-out;
-
+  // overflow: hidden;
 
   &.hidden {
-    min-height: 50px;
+    // min-height: 50px;
+    height: 50px;
     background-color: #00C6D6;
   }
-  &.active {
-    background-color: #00DAEC;
-    max-height: 250px;
-  }
+  // &.active {
+  //   background-color: #00DAEC;
+  //   max-height: 250px;
+  // }
 
 }
 
@@ -54,4 +55,9 @@ p {
   margin: 0;
   padding: 0 20px;
   padding-bottom: 20px;
+  display: none;
+}
+
+accord-content {
+  display: none;
 }
